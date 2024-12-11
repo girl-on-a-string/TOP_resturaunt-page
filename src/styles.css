@@ -1,0 +1,36 @@
+:root {
+    --mainContentBG: url("https://images.unsplash.com/photo-1732762990635-a713a09e9025?q=80&w=3736&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    --menuContentBG: ;
+    --aboutContentBG: ;
+
+    --main-txt-color: white;
+    
+    --main-bg-color: black;
+    --nav-bg-color: rgba(128, 128, 128, 0.3);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    margin: 0;
+    padding: 0;
+    color: var(--main-txt-color);
+}
+
+/* header */
+
+header {
+    background-color: var(--nav-bg-color);
+}
+
+/* nav */
+
+nav button {
+    color: var(--main-txt-color);
+    background-color: var(--main-bg-color);
+    border: none;
+    font-size: 1.5625rem;
+}
