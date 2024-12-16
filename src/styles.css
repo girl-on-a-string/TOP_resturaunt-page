@@ -1,7 +1,7 @@
 :root {
-    --mainContentBG: url("https://images.unsplash.com/photo-1732762990635-a713a09e9025?q=80&w=3736&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    --menuContentBG: ;
-    --aboutContentBG: ;
+    --mainContentBG: url("./alexandre-topolewski-95izPCyzmrc-unsplash.jpg");
+    --menuContentBG: url("./alexandre-topolewski-LMkwGSe7oNw-unsplash.jpg");
+    --aboutContentBG: url("./alexandre-topolewski-rWAiaJ2WqMU-unsplash.jpg");
 
     --main-txt-color: white;
     
@@ -34,3 +34,5 @@ nav button {
     border: none;
     font-size: 1.5625rem;
 }
+
+/* welcom banner */
