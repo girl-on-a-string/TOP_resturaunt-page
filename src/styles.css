@@ -35,4 +35,13 @@ nav button {
     font-size: 1.5625rem;
 }
 
-/* welcom banner */
+/* welcome banner */
+
+#welcomeBanner {
+    height: 31.25rem;
+    font-size: 3.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
