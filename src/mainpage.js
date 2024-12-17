@@ -6,10 +6,13 @@ import { DOMelements } from ".";
 const mainPageContent = () => {
     console.log("hello from mainpage");
 
-    const bgImg = document.createElement("img");
-    bgImg.src = mainPageImg;
+    // const bgImg = document.createElement("img");
+    // bgImg.src = mainPageImg;
 
     DOMelements.welcomeBanner.innerText = "Welcome to my super cool swag resturaunt, Currently on the home page rn."
+    
+    DOMelements.welcomeBanner.style.backgroundImage = window.getComputedStyle(document.body).getPropertyValue("--mainContentBG");
+    
     // DOMelements.welcomeBanner.style.backgroundImage = "url('src/alexandre-topolewski-95izPCyzmrc-unsplash.jpg')";
 
     // DOMelements.welcomeBanner.style.backgroundImage = bgImg;
