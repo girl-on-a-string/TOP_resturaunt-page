@@ -10,12 +10,17 @@ const DOMelements = (() => {
     welcomeBanner.setAttribute("id", "welcomeBanner");
 
     let contentDiv = document.getElementById("content");
+    
+    let txtArea = document.createElement("div");
+    txtArea.setAttribute("id", "txtArea");
+
     contentDiv.appendChild(welcomeBanner);
+    contentDiv.appendChild(txtArea);
 
     // mainPageContent();
 
     return {
-        welcomeBanner, contentDiv
+        welcomeBanner, contentDiv, txtArea
     }
 })();
 
