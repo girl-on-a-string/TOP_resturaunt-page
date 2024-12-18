@@ -1,6 +1,7 @@
 //this page will handle all the other pages displays and tab action
 
 import { mainPageContent } from "./mainpage";
+import { aboutPageContent} from "./aboutpage";
 import "./styles.css";
 
 console.log("hello from index");
