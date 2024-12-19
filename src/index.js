@@ -27,6 +27,10 @@ const DOMelements = (() => {
 
 mainPageContent();
 
+document.getElementById("home").addEventListener("click", () => {
+    mainPageContent();
+});
+
 document.getElementById("about").addEventListener("click", () => {
     aboutPageContent();
 });
