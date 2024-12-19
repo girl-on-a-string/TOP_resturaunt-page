@@ -1,6 +1,7 @@
 //this page will handle all the other pages displays and tab action
 
 import { mainPageContent } from "./mainpage";
+import { menuPageContent } from "./menupage";
 import { aboutPageContent} from "./aboutpage";
 import "./styles.css";
 
@@ -29,6 +30,10 @@ mainPageContent();
 
 document.getElementById("home").addEventListener("click", () => {
     mainPageContent();
+});
+
+document.getElementById("menu").addEventListener("click", () => {
+
 });
 
 document.getElementById("about").addEventListener("click", () => {
