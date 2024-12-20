@@ -33,7 +33,7 @@ document.getElementById("home").addEventListener("click", () => {
 });
 
 document.getElementById("menu").addEventListener("click", () => {
-
+    menuPageContent();
 });
 
 document.getElementById("about").addEventListener("click", () => {
